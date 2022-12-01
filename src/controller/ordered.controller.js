@@ -6,7 +6,7 @@ const create = async (req, res) => {
 }
 
 const remove = async (req, res) => {
-    const orderedtId = req.params.id
+    const orderedId = req.params.id
     await service.remove(orderedId)
     res.status(204).send('ordered deleted!')
 }
