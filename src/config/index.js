@@ -2,6 +2,6 @@ module.exports = {
     username: 'admin',
     password: 'admin',
     database: 'admin',
-    host: 'db',
+    host: 'localhost',
     dialect: 'postgres'
 }
